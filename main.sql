@@ -1,16 +1,14 @@
--- create a table
-CREATE TABLE historia (
+CREATE TABLE geografia (
   ano int (4),
   eventos VARCHAR(250)NOT NULL,
   localidade VARCHAR(30)NOT NULL,
   descricao VARCHAR(255)NOT NULL
 );
 -- insert some values
-INSERT INTO historia VALUES (1945, 'Bomba de Hiroshima', 'Japão','tacaro bomba');
-INSERT INTO historia VALUES (2020, 'pandemia', 'mundial','morreu gente');
-INSERT INTO historia VALUES (2023, 'plaza caiu', 'osasco','estacionamento desabou');
-INSERT INTO historia VALUES (2022, 'copa do mundo', 'qatar', 'campeonato de futebol');
-INSERT INTO historia VALUES (2023, 'show','brasil', 'show do coldplay');
-INSERT INTO historia VALUES (2019, 'fogo na floresta','brasil','pegou fogo na amazonas e ficou tudo pretao');
+INSERT INTO geografia VALUES (1530, 'Est. Brasil Reino de Portugal, Brasil e Algarves', 'Brasil','Exp. territorio brasileiro');
+INSERT INTO geografia VALUES (1889, 'Monarquia', 'Brasil','Fim do Brasil República');
+INSERT INTO geografia VALUES (1962, 'Independência', 'Osasco','Se tornou município autonômo');
+INSERT INTO geografia VALUES (1960, 'Capital do Brasil', 'Brasília', 'Dai´em diante,Brasília tornou-se a capital do país');
+
 -- fetch some values
-SELECT * FROM historia WHERE ano  = '2023';
+SELECT * FROM geografia
